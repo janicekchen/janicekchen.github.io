@@ -18,7 +18,9 @@
 
     .card-container {
         border: 1px solid orange;
-        max-width: 300px;
+        width: 50%;
+        box-sizing: border-box;
+
     }
 
     .thumbnail {
