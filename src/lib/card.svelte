@@ -14,18 +14,19 @@
 <style>
     h3 {
         font-family: var(--font-primary);
-        margin: 7px 0px;
+        margin: 5px 0px 0px 0px;
         font-size: 1em;
     }
 
     h4 {
-        margin: 0px 0px;
+        margin: 0px 0px 10px 0;
         font-weight: 300;
-        font-size: 0.75em;
+        font-size: 1em;
+        font-family: var(--font-secondary)
     }
 
     .card-container {
-        border: 1px solid orange;
+        /*border: 1px solid orange;/*/
         flex-basis: 50%;
         flex-grow: 1;
         box-sizing: border-box;

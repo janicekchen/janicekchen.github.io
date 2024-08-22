@@ -1,5 +1,6 @@
 <script>
     import '@fontsource-variable/overpass-mono';
+    import '@fontsource/cormorant-garamond';
     import '/static/style.css'
 </script>
 <header>
@@ -52,7 +53,7 @@
         padding: 0;
         right: 0;
         display: flex;
-        gap: 20px;
+        gap: 30px;
         font-size: 0.75em;
         text-decoration: none;
         color: #000;

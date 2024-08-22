@@ -26,6 +26,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/overpass-mono": "^5.0.19",
+		"@fontsource/cormorant-garamond": "^5.0.14",
 		"@stitches/core": "^1.2.8",
 		"stitches": "^1.2.11"
 	}
