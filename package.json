@@ -23,5 +23,9 @@
 		"svelte": "^4.2.7",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@stitches/core": "^1.2.8",
+		"stitches": "^1.2.11"
+	}
 }
