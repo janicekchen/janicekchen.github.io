@@ -14,6 +14,14 @@
 <style>
     h3 {
         font-family: var(--font-primary);
+        margin: 7px 0px;
+        font-size: 1em;
+    }
+
+    h4 {
+        margin: 0px 0px;
+        font-weight: 300;
+        font-size: 0.75em;
     }
 
     .card-container {
