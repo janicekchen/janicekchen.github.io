@@ -1,3 +1,7 @@
+<script>
+    import '@fontsource-variable/overpass-mono';
+    import '/static/style.css'
+</script>
 <header>
     <h1>
         <a href="/">janice kai chen</a>
@@ -24,12 +28,22 @@
         align-items: center;
         position: sticky;
         top: 0; 
+        font-family: var(--font-primary);
+        text-transform: uppercase;
     }
 
-    a {
+    a, a:visited, a:active {
+        color: inherit;
         text-decoration: none;
+        padding: 20px 0px;
     }
+
+    a:hover {
+        color: deeppink;
+    }
+
     h1 {
+        font-size: 1.25em;
     }
 
     ul {
@@ -39,10 +53,13 @@
         right: 0;
         display: flex;
         gap: 20px;
+        font-size: 0.75em;
+        text-decoration: none;
+        color: #000;
     }
 
     li {
-        /* display: inline; */
+        
     }
 
 </style>

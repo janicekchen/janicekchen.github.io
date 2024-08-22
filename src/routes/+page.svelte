@@ -7,25 +7,25 @@
     <div class="selected-works">
         <Card/>
         <Card/>
+        <Card/>
     </div>
 </div>
 
 <style>
-    h1 {
-        font-family: 'Arial'
-    }
 
     .container {
         width: 640px;
         margin: auto;
         background-color: aliceblue;
+        font-family: var(--font-primary)
     }
 
     .selected-works {
-        display: flex;
         width: 100%;
+        display: grid;
+        grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr);
         gap: 10px;
-        justify-content: space-between;
+        
 
     }
 </style>

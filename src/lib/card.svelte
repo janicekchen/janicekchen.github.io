@@ -1,4 +1,5 @@
 <script>
+    import '/static/style.css'
     let title = "bop"
     let subtitle = "beep boop bap"
 </script>
@@ -7,24 +8,25 @@
     <div class=thumbnail></div>
     <h3>{title}</h3>
     <h4>{subtitle}</h4>
-
 </div>
 
 
 <style>
     h3 {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: var(--font-primary);
     }
 
     .card-container {
         border: 1px solid orange;
-        width: 50%;
+        flex-basis: 50%;
+        flex-grow: 1;
         box-sizing: border-box;
-
     }
 
     .thumbnail {
-        height: 150px;
+        height: 200px;
         background-color: 'lavender';
+        background-image: url("https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg");
+        background-size: cover;
     }
 </style>
