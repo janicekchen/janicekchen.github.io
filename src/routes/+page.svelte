@@ -68,10 +68,12 @@
         margin: 50px auto;
         max-width: 640px;
         text-align: center;
-        text-decoration-line: underline wavy ;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
         text-decoration-color: red;
         -webkit-text-decoration-line: underline wavy;
         -webkit-text-decoration-color: red;
+        -webkit-text-decoration-style: wavy;
 
 
     }

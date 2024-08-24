@@ -51,18 +51,20 @@
         padding: 20px 0px;
         text-decoration-line: underline;
         text-decoration-thickness: 3px;
-        text-decoration-color: yellowgreen;
+        text-decoration-color: greenyellow;
         -webkit-text-decoration-line: underline;
         -webkit-text-decoration-thickness: 3px;
-        -webkit-text-decoration-color: yellowgreen;
+        -webkit-text-decoration-color: greenyellow;
     }
 
     a:hover {
         color: deeppink;
-        text-decoration-line: underline wavy;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
         text-decoration-thickness: 3px;
         text-decoration-color: deeppink;
-        -webkit-text-decoration-line: underline wavy;
+        -webkit-text-decoration-line: underline;
+        -webkit-text-decoration-style: wavy;
         -webkit-text-decoration-thickness: 3px;
         -webkit-text-decoration-color: deeppink;
     }
