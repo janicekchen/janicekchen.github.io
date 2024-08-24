@@ -34,16 +34,22 @@
         top: 0; 
         font-family: var(--font-primary);
         text-transform: uppercase;
+
+        @media (max-width: 550px) {
+            flex-direction: column;
+        }
     }
 
     a, a:visited, a:active {
         color: inherit;
         text-decoration: none;
         padding: 20px 0px;
+        text-decoration: underline greenyellow 3px;
     }
 
     a:hover {
         color: deeppink;
+        text-decoration: underline wavy greenyellow 3px;
     }
 
     h1 {
