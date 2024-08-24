@@ -49,12 +49,22 @@
         color: inherit;
         text-decoration: none;
         padding: 20px 0px;
-        text-decoration: underline greenyellow 3px;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: yellowgreen;
+        -webkit-text-decoration-line: underline;
+        -webkit-text-decoration-thickness: 3px;
+        -webkit-text-decoration-color: yellowgreen;
     }
 
     a:hover {
         color: deeppink;
-        text-decoration: underline wavy greenyellow 3px;
+        text-decoration-line: underline wavy;
+        text-decoration-thickness: 3px;
+        text-decoration-color: deeppink;
+        -webkit-text-decoration-line: underline wavy;
+        -webkit-text-decoration-thickness: 3px;
+        -webkit-text-decoration-color: deeppink;
     }
 
     h1 {
