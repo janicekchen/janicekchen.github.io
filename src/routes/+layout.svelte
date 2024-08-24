@@ -1,12 +1,13 @@
 <script>
     import '@fontsource-variable/overpass-mono';
     import '@fontsource/cormorant-garamond';
-    import '/static/style.css'
+    import '/static/style.css';
     import { base } from '$app/paths';
+    
 </script>
 <header>
     <h1>
-        <a href="/">janice kai chen</a>
+        <a href="{base}/">janice kai chen</a>
     </h1>
     <div class="nav-wrapper">
         <nav>
