@@ -2,16 +2,22 @@
     import '/static/style.css'
     export let hed 
     export let subhed 
+    export let url
 </script>
-
-<div class=card-container>
-    <div class=thumbnail></div>
-    <h3>{hed}</h3>
-    <h4>{subhed}</h4>
-</div>
+<a href={url}>
+    <div class=card-container>
+        <div class=thumbnail></div>
+        <h3>{hed}</h3>
+        <h4>{subhed}</h4>
+    </div>
+</a>
 
 
 <style>
+    a {
+        text-decoration: none;
+        color: black;
+    }
     h3 {
         font-family: var(--font-primary);
         margin: 5px 0px 0px 0px;
@@ -37,5 +43,6 @@
         background-color: 'lavender';
         background-image: var(--imgUrl);
         background-size: cover;
+        border: 3px solid yellowgreen;
     }
 </style>
