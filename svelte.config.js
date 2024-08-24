@@ -9,6 +9,7 @@ const config = {
 		adapter: adapter(),
 		paths: {
             base: process.env.NODE_ENV === 'production' ? '/janicekchen.github.io' : '',
+			relative: false
         }
 	}
 };
