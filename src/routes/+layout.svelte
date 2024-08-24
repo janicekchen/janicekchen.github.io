@@ -1,6 +1,7 @@
 <script>
     import '@fontsource-variable/overpass-mono';
     import '@fontsource/cormorant-garamond';
+    import '@fontsource/comic-neue';
     
     import { base } from '$app/paths';
     import '/static/style.css';
@@ -36,6 +37,7 @@
         /* position: sticky; */
         top: 0; 
         font-family: var(--font-primary);
+        font-weight: bold;
         text-transform: uppercase;
 
         @media (max-width: 550px) {
@@ -57,6 +59,7 @@
 
     h1 {
         font-size: 1.25em;
+        font-weight: bold;
     }
 
     ul {

@@ -14,6 +14,8 @@
     <p class="bio">
         I'm a journalist, data viz designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
+    <p></p>
+    <p class="bio"><mark style="highlight-color: pink;"><small>janicekchen [at] gmail</small></mark></p>
     <h2>selected work [what is visual hierarchy?!]</h2>
     <div class="selected-works">
         <Card 
