@@ -1,8 +1,9 @@
 <script>
     import '@fontsource-variable/overpass-mono';
     import '@fontsource/cormorant-garamond';
-    import '/static/style.css';
+    
     import { base } from '$app/paths';
+    import '/static/style.css';
     
 </script>
 <header>
