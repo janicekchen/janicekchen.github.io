@@ -2,6 +2,7 @@
     import '@fontsource-variable/overpass-mono';
     import '@fontsource/cormorant-garamond';
     import '/static/style.css'
+    import { base } from '$app/paths';
 </script>
 <header>
     <h1>
@@ -10,8 +11,8 @@
     <div class="nav-wrapper">
         <nav>
             <ul>
-                <li><a href="/work">professional work</a></li>
-                <li><a href="/sidequests">sidequests</a></li>
+                <li><a href="{base}/work">professional work</a></li>
+                <li><a href="{base}/sidequests">sidequests</a></li>
             </ul>
         </nav>
     </div>

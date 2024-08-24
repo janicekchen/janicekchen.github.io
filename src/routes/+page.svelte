@@ -2,10 +2,11 @@
     import Card from '$lib/card.svelte'
     import img1 from '$lib/img/selected_1.png'
     import img2 from '$lib/img/selected_2.png'
+    import { base } from '$app/paths';
 </script>
 <div class="container">
     <p class="bio">
-        I'm a journalist, data viz designer, and cartographer based in Seattle. I am often on <a href="/sidequests">sidequests</a> (rabidly learning things to realize ridiculous projects). 
+        I'm a journalist, data viz designer, and cartographer based in Seattle. I am often on <a href="{base}/sidequests">sidequests</a> (rabidly learning things to realize ridiculous projects). 
     </p>
     <h2>selected work [what is visual hierarchy?!]</h2>
     <div class="selected-works">

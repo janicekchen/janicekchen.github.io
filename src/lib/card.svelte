@@ -2,7 +2,6 @@
     import '/static/style.css'
     export let hed 
     export let subhed 
-    export let imgSrc
 </script>
 
 <div class=card-container>
