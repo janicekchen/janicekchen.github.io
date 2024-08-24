@@ -1,15 +1,17 @@
 <script>
     import Card from '$lib/card.svelte'
+    import img1 from '$lib/img/selected_1.png'
+    import img2 from '$lib/img/selected_2.png'
 </script>
 <div class="container">
     <p class="bio">
-        I'm a journalist, data viz designer, and cartographer based in Seattle. I am often on sidequests (rabidly learning things to realize ridiculous projects). 
+        I'm a journalist, data viz designer, and cartographer based in Seattle. I am often on <a href="/sidequests">sidequests</a> (rabidly learning things to realize ridiculous projects). 
     </p>
     <h2>selected work [what is visual hierarchy?!]</h2>
     <div class="selected-works">
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card hed={"State affirmative action bans helped White, Asian students, hurt others"} subhed="The Washington Post" --imgUrl={`url(${img1})`}/>
+        <Card hed={"Pigeons are still (sometimes) faster than your internet"} subhed="The Washington Post" --imgUrl={`url(${img2})`}/>
+        <Card hed={"Milk Country"} subhed={"a story about cows, history and familiar landscapes"} --imgUrl={`url(${img2})`}/>
     </div>
 </div>
 

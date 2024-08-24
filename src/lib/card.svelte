@@ -1,13 +1,14 @@
 <script>
     import '/static/style.css'
-    let title = "bop"
-    let subtitle = "beep boop bap"
+    export let hed 
+    export let subhed 
+    export let imgSrc
 </script>
 
 <div class=card-container>
     <div class=thumbnail></div>
-    <h3>{title}</h3>
-    <h4>{subtitle}</h4>
+    <h3>{hed}</h3>
+    <h4>{subhed}</h4>
 </div>
 
 
@@ -21,7 +22,7 @@
     h4 {
         margin: 0px 0px 10px 0;
         font-weight: 300;
-        font-size: 1em;
+        font-size: 0.75em;
         font-family: var(--font-secondary)
     }
 
@@ -35,7 +36,7 @@
     .thumbnail {
         height: 200px;
         background-color: 'lavender';
-        background-image: url("https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg");
+        background-image: var(--imgUrl);
         background-size: cover;
     }
 </style>
