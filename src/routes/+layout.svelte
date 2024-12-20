@@ -39,7 +39,7 @@
         top: 0; 
         font-family: var(--font-primary);
         font-weight: bold;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
 
         @media (max-width: 550px) {
             flex-direction: column;
