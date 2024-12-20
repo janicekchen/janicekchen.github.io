@@ -40,9 +40,8 @@
 
     .thumbnail {
         height: 200px;
-        background-color: 'lavender';
         background-image: var(--imgUrl);
         background-size: cover;
-        border: 3px solid yellowgreen;
+        border: 0.5px solid black;
     }
 </style>
