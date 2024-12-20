@@ -34,6 +34,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        letter-spacing: 1px;
         top: 0; 
         font-family: var(--font-primary);
         font-weight: bold;
@@ -48,7 +49,7 @@
         text-decoration: none;
         padding: 20px 0px;
         text-decoration-line: underline;
-        text-decoration-thickness: 3px;
+        text-decoration-thickness: 1px;
         text-decoration-color: greenyellow;
         -webkit-text-decoration-line: underline;
         -webkit-text-decoration-thickness: 3px;

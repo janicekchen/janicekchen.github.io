@@ -10,8 +10,8 @@
         I'm a journalist, data viz designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
     <p></p>
-    <!-- <p class="bio">hello [at] janicekchen.com</p> -->
-    <h2>selected work [what is visual hierarchy?!]</h2>
+<!-- <p class="bio">hello [at] janicekchen.com</p> -->
+    <h2>selected work</h2>
     <div class="selected-works">
         <Card 
             hed={"State affirmative action bans helped White, Asian students, hurt others"} 
@@ -42,24 +42,24 @@
         font-size: 14px;
         line-height: 25px;
         font-family: var(--font-secondary);
+        color: var(--text-color-primary);
         font-weight: 300;
         max-width: 640px;
         margin: auto;
         /* text-align: center; */
     }
     h2 {
-        font-size: 0.5em;
-        font-weight: 700;
-        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: 400;
+        color: var(--text-color-primary);
+        letter-spacing: 1px;
+        /* text-transform: uppercase; */
         margin: 50px auto;
         max-width: 640px;
-        text-align: center;
+        /* text-decoration-style: wavy;
         text-decoration-line: underline;
-        text-decoration-style: wavy;
-        text-decoration-color: red;
-        -webkit-text-decoration-line: underline wavy;
-        -webkit-text-decoration-color: red;
-        -webkit-text-decoration-style: wavy;
+        text-decoration-thickness: 0.5px; */
+        /* text-align: center; */
 
 
     }
