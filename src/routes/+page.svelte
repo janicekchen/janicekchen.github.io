@@ -6,11 +6,6 @@
     import { base } from '$app/paths';
 </script>
 <div class="container">
-    <p class="excuse">
-        <mark>
-            [⚠⚠⚠Site currently under reconstruction⚠⚠⚠ please enjoy uggo version]
-        </mark>
-    </p>
     <p class="bio">
         I'm a journalist, data viz designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
@@ -37,17 +32,6 @@
 </div>
 
 <style>
-    .excuse {
-        font-weight: 300;
-        font-size: 0.75em;
-        font-family: var(--font-secondary);
-        font-weight: 300;
-        max-width: 640px;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 40px;
-
-    }
 
     mark {
         color: deeppink;
