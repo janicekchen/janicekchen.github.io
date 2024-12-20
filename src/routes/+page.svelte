@@ -10,7 +10,7 @@
         I'm a journalist, data viz designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
     <p></p>
-    <p class="bio"><mark style="highlight-color: pink;"><small>hello [at] janicekchen.com</small></mark></p>
+    <p class="bio">hello [at] janicekchen.com</p>
     <h2>selected work [what is visual hierarchy?!]</h2>
     <div class="selected-works">
         <Card 
@@ -36,14 +36,16 @@
     mark {
         color: deeppink;
     }
+
     .bio {
         font-weight: 300;
-        font-size: 1.25em;
+        font-size: 14px;
+        line-height: 25px;
         font-family: var(--font-secondary);
         font-weight: 300;
         max-width: 640px;
         margin: auto;
-        text-align: center;
+        /* text-align: center; */
     }
     h2 {
         font-size: 0.5em;
