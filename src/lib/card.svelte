@@ -1,5 +1,5 @@
 <script>
-    import '/static/style.css'
+    import '../style.css'
     export let hed 
     export let subhed 
     export let url

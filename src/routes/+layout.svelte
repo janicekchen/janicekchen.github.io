@@ -2,9 +2,10 @@
     import '@fontsource-variable/overpass-mono';
     import '@fontsource/cormorant-garamond';
     import '@fontsource/comic-neue';
+    import '@fontsource/libre-baskerville';
     
     import { base } from '$app/paths';
-    import '/static/style.css';
+    import '../style.css';
     
 </script>
 <header>

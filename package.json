@@ -31,6 +31,7 @@
 		"@fontsource-variable/overpass-mono": "^5.0.19",
 		"@fontsource/comic-neue": "^5.0.13",
 		"@fontsource/cormorant-garamond": "^5.0.14",
+		"@fontsource/libre-baskerville": "^5.1.0",
 		"@stitches/core": "^1.2.8",
 		"stitches": "^1.2.11"
 	}
