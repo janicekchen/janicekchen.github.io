@@ -29,6 +29,7 @@
     header {
         margin: auto;
         padding: 30px 0;
+        color: var(--text-color-primary);
         /* background: linear-gradient(90deg #fff 0% #ffffff 100%); */
         /* background-color: aliceblue; */
         max-width: 640px;
