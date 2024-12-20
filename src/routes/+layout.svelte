@@ -30,7 +30,7 @@
         margin: auto;
         padding: 30px 0;
         /* background: linear-gradient(90deg #fff 0% #ffffff 100%); */
-        background-color: aliceblue;
+        /* background-color: aliceblue; */
         max-width: 640px;
         display: flex;
         justify-content: space-between;
