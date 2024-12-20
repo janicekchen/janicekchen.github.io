@@ -8,7 +8,7 @@
     <div class=card-container>
         <div class=thumbnail></div>
         <h3>{hed}</h3>
-        <h4>{subhed}</h4>
+        <!-- <h4>{subhed}</h4> -->
     </div>
 </a>
 
@@ -20,8 +20,11 @@
     }
     h3 {
         font-family: var(--font-primary);
+        color: var(--text-color-primary);
         margin: 5px 0px 0px 0px;
-        font-size: 1em;
+        font-size: 0.75em;
+        letter-spacing: 0.25px;
+        line-height: 1.5em;
     }
 
     h4 {
@@ -42,6 +45,6 @@
         height: 200px;
         background-image: var(--imgUrl);
         background-size: cover;
-        border: 0.5px solid black;
+        border: 0.5px solid var(--text-color-primary);
     }
 </style>
