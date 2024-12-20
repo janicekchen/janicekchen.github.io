@@ -30,17 +30,13 @@
         margin: auto;
         padding: 30px 0;
         color: var(--text-color-primary);
-        /* background: linear-gradient(90deg #fff 0% #ffffff 100%); */
-        /* background-color: aliceblue; */
         max-width: 640px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* position: sticky; */
         top: 0; 
         font-family: var(--font-primary);
         font-weight: bold;
-        /* text-transform: uppercase; */
 
         @media (max-width: 550px) {
             flex-direction: column;
