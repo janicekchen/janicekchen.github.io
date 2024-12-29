@@ -40,9 +40,10 @@
     }
 
     .thumbnail {
-        height: 200px;
+        height: 150px;
         background-image: var(--imgUrl);
         background-size: cover;
+        background-position: center;
         border: 0.5px solid var(--text-color-primary);
     }
 </style>
