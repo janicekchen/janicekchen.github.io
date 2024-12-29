@@ -48,13 +48,14 @@
         margin: auto;
         /* text-align: center; */
     }
+
     h2 {
         font-size: 1em;
         font-weight: 400;
         color: var(--text-color-primary);
         letter-spacing: 1px;
         /* text-transform: uppercase; */
-        margin: 50px auto;
+        margin: 50px auto 10px auto;
         max-width: 640px;
         /* text-decoration-style: wavy;
         text-decoration-line: underline;

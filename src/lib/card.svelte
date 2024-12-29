@@ -6,8 +6,8 @@
 </script>
 <a href={url}>
     <div class=card-container>
-        <div class=thumbnail></div>
         <h3>{hed}</h3>
+        <div class=thumbnail></div>
         <!-- <h4>{subhed}</h4> -->
     </div>
 </a>
@@ -37,6 +37,7 @@
     .card-container {
         /*border: 1px solid orange;/*/
         box-sizing: border-box;
+        margin: 5px 0px;
     }
 
     .thumbnail {
