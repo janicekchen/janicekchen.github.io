@@ -1,0 +1,20 @@
+order,hed,desc,thumbnail,link,date,skills,tech
+1,Israel has bombed much of Gaza to rubble. What would it take to rebuild?,,gaza-reconstruction,https://wapo.st/3ZMzP3U,Oct. 2024,"dev, reporting",React
+2,"State affirmative action bans helped White, Asian students, hurt others",,affirmative-action,https://wapo.st/405qmpA,June 2023,"reporting, data analysis","Adobe Illustrator, R"
+3,Pigeons are still (sometimes) faster than your internet,,pigeons,https://wapo.st/41NfvSE,Nov. 2023,"reporting, illustration, cartography, data analysis","QGIS, R, Procreate"
+4,Exit polls from the 2024 presidential election,,exit-polls,https://wapo.st/3BPgyXl,Nov. 2024,"dev, data analysis","Datawrapper, R, React"
+5,How Florida’s abortion law is affecting East Coast abortion clinics,,florida-abortion,https://wapo.st/4gOKrpU,May 2024,cartography,Adobe Illustrator
+6,How much are rents going up? See how prices have changed in your area.,,rent-prices,https://wapo.st/3VUcOe3,Aug. 2024,"dev, data analysis","MapLibre, React, R"
+7,No daylight saving time? See how early or late you would be in the dark.,,dstmaps,https://wapo.st/41H6VEH,Dec. 2024,"dev, data analysis, cartography, data visualization","D3, React, R"
+8,When Ukraine goes dark,,ukraine-dark,https://www.washingtonpost.com/world/interactive/2023/ukriane-war-power-outages-kyiv-blackouts/,Mar. 2023,"cartography, remote sensing","Adobe Illustrator, GDAL"
+9,‘In the name of God’,,priests,https://www.washingtonpost.com/investigations/interactive/2024/sexual-abuse-native-american-boarding-schools/,May 2024,"data analysis, data visualization, cartography","D3, Adobe Illustrator, QGIS"
+10,"As Europe’s heat wave melts roads, Tour de France races into an uncertain future",,tour-de-france,https://www.washingtonpost.com/world/2022/07/23/tour-de-france-heat-wave-climate-change/,July 2022,"cartography, data analysis","Adobe Illustrator, QGIS"
+11,Where women made history on Election Day,,women-politics,https://www.washingtonpost.com/politics/interactive/2024/women-in-congress-firsts/,Nov. 2024,"reporting, dev, data visualization","D3, React"
+12,Paris Olympics medal count: Tracking medals by country in 2024,,paris-olympics,https://www.washingtonpost.com/sports/olympics/interactive/2024/paris-olympics-medal-count-tracker/?itid=ap_chrisalcantara,Aug. 2024,"data visualization, dev, data analysis","R, React, Adobe Illustrator"
+13,"Drone strikes, sabotage, shelling: Russia’s war on Ukraine comes to Russia",,russia-strikes,https://www.washingtonpost.com/world/2023/03/21/ukraine-war-russian-soil/,Mar. 2023,"data analysis, cartography","R, QGIS, Adobe Illustrator"
+14,"Half of Black D.C. residents lack easy access to health care, analysis shows",,dc-health-outcomes,https://www.washingtonpost.com/dc-md-va/2024/01/03/dc-black-health-care-outcomes/,Jan. 2024,"cartography, data analysis","QGIS, R, Adobe Illustrator"
+15,Tracking damage within the Gaza Strip through maps,,gaza-maps,https://www.washingtonpost.com/world/2023/gaza-strip-map-attacks-damage/,Dec. 2023,cartography,"QGIS, Adobe Illustrator"
+16,"As Arctic air blasts U.S., see where temperatures will fall fastest and farthest",,arctic-air,https://www.washingtonpost.com/weather/2022/12/21/arctic-air-temperatures-drop/,Dec. 2022,"cartography, data analysis",Google Earth Engine
+17,The gold-mining city that is destroying a sacred Venezuelan mountain,,yapacana,https://wapo.st/3BDyBjm,Dec. 2022,"cartography, remote sensing","Blender, Google Earth Engine, GDAL, Adobe Photoshop"
+18,100-degree days for weeks? See where streaks have broken records.,,hundred-degrees,https://wapo.st/3VQJzZv,July 2023,"data analysis, cartograpy","R, Datawrapper"
+19,The ancient Turkish city that ceased to exist after the earthquakes,,antakya,https://www.washingtonpost.com/world/2023/02/23/earthquake-antakya-abandoned-photos/,Feb. 2023,"cartography, remote sensing","Adobe Illustrator, GDAL"

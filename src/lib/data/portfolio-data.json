@@ -1,0 +1,211 @@
+{
+  "1": [
+    {
+      "order": 1,
+      "hed": "Israel has bombed much of Gaza to rubble. What would it take to rebuild?",
+      "thumbnail": "gaza-reconstruction",
+      "link": "https://wapo.st/3ZMzP3U",
+      "date": "Oct. 2024",
+      "skills": "dev, reporting",
+      "tech": "React"
+    }
+  ],
+  "2": [
+    {
+      "order": 2,
+      "hed": "State affirmative action bans helped White, Asian students, hurt others",
+      "thumbnail": "affirmative-action",
+      "link": "https://wapo.st/405qmpA",
+      "date": "June 2023",
+      "skills": "reporting, data analysis",
+      "tech": "Adobe Illustrator, R"
+    }
+  ],
+  "3": [
+    {
+      "order": 3,
+      "hed": "Pigeons are still (sometimes) faster than your internet",
+      "thumbnail": "pigeons",
+      "link": "https://wapo.st/41NfvSE",
+      "date": "Nov. 2023",
+      "skills": "reporting, illustration, cartography, data analysis",
+      "tech": "QGIS, R, Procreate"
+    }
+  ],
+  "4": [
+    {
+      "order": 4,
+      "hed": "Exit polls from the 2024 presidential election",
+      "thumbnail": "exit-polls",
+      "link": "https://wapo.st/3BPgyXl",
+      "date": "Nov. 2024",
+      "skills": "dev, data analysis",
+      "tech": "Datawrapper, R, React"
+    }
+  ],
+  "5": [
+    {
+      "order": 5,
+      "hed": "How Florida’s abortion law is affecting East Coast abortion clinics",
+      "thumbnail": "florida-abortion",
+      "link": "https://wapo.st/4gOKrpU",
+      "date": "May 2024",
+      "skills": "cartography",
+      "tech": "Adobe Illustrator"
+    }
+  ],
+  "6": [
+    {
+      "order": 6,
+      "hed": "How much are rents going up? See how prices have changed in your area.",
+      "thumbnail": "rent-prices",
+      "link": "https://wapo.st/3VUcOe3",
+      "date": "Aug. 2024",
+      "skills": "dev, data analysis",
+      "tech": "MapLibre, React, R"
+    }
+  ],
+  "7": [
+    {
+      "order": 7,
+      "hed": "No daylight saving time? See how early or late you would be in the dark.",
+      "thumbnail": "dstmaps",
+      "link": "https://wapo.st/41H6VEH",
+      "date": "Dec. 2024",
+      "skills": "dev, data analysis, cartography, data visualization",
+      "tech": "D3, React, R"
+    }
+  ],
+  "8": [
+    {
+      "order": 8,
+      "hed": "When Ukraine goes dark",
+      "thumbnail": "ukraine-dark",
+      "link": "https://www.washingtonpost.com/world/interactive/2023/ukriane-war-power-outages-kyiv-blackouts/",
+      "date": "Mar. 2023",
+      "skills": "cartography, remote sensing",
+      "tech": "Adobe Illustrator, GDAL"
+    }
+  ],
+  "9": [
+    {
+      "order": 9,
+      "hed": "‘In the name of God’",
+      "thumbnail": "priests",
+      "link": "https://www.washingtonpost.com/investigations/interactive/2024/sexual-abuse-native-american-boarding-schools/",
+      "date": "May 2024",
+      "skills": "data analysis, data visualization, cartography",
+      "tech": "D3, Adobe Illustrator, QGIS"
+    }
+  ],
+  "10": [
+    {
+      "order": 10,
+      "hed": "As Europe’s heat wave melts roads, Tour de France races into an uncertain future",
+      "thumbnail": "tour-de-france",
+      "link": "https://www.washingtonpost.com/world/2022/07/23/tour-de-france-heat-wave-climate-change/",
+      "date": "July 2022",
+      "skills": "cartography, data analysis",
+      "tech": "Adobe Illustrator, QGIS"
+    }
+  ],
+  "11": [
+    {
+      "order": 11,
+      "hed": "Where women made history on Election Day",
+      "thumbnail": "women-politics",
+      "link": "https://www.washingtonpost.com/politics/interactive/2024/women-in-congress-firsts/",
+      "date": "Nov. 2024",
+      "skills": "reporting, dev, data visualization",
+      "tech": "D3, React"
+    }
+  ],
+  "12": [
+    {
+      "order": 12,
+      "hed": "Paris Olympics medal count: Tracking medals by country in 2024",
+      "thumbnail": "paris-olympics",
+      "link": "https://www.washingtonpost.com/sports/olympics/interactive/2024/paris-olympics-medal-count-tracker/?itid=ap_chrisalcantara",
+      "date": "Aug. 2024",
+      "skills": "data visualization, dev, data analysis",
+      "tech": "R, React, Adobe Illustrator"
+    }
+  ],
+  "13": [
+    {
+      "order": 13,
+      "hed": "Drone strikes, sabotage, shelling: Russia’s war on Ukraine comes to Russia",
+      "thumbnail": "russia-strikes",
+      "link": "https://www.washingtonpost.com/world/2023/03/21/ukraine-war-russian-soil/",
+      "date": "Mar. 2023",
+      "skills": "data analysis, cartography",
+      "tech": "R, QGIS, Adobe Illustrator"
+    }
+  ],
+  "14": [
+    {
+      "order": 14,
+      "hed": "Half of Black D.C. residents lack easy access to health care, analysis shows",
+      "thumbnail": "dc-health-outcomes",
+      "link": "https://www.washingtonpost.com/dc-md-va/2024/01/03/dc-black-health-care-outcomes/",
+      "date": "Jan. 2024",
+      "skills": "cartography, data analysis",
+      "tech": "QGIS, R, Adobe Illustrator"
+    }
+  ],
+  "15": [
+    {
+      "order": 15,
+      "hed": "Tracking damage within the Gaza Strip through maps",
+      "thumbnail": "gaza-maps",
+      "link": "https://www.washingtonpost.com/world/2023/gaza-strip-map-attacks-damage/",
+      "date": "Dec. 2023",
+      "skills": "cartography",
+      "tech": "QGIS, Adobe Illustrator"
+    }
+  ],
+  "16": [
+    {
+      "order": 16,
+      "hed": "As Arctic air blasts U.S., see where temperatures will fall fastest and farthest",
+      "thumbnail": "arctic-air",
+      "link": "https://www.washingtonpost.com/weather/2022/12/21/arctic-air-temperatures-drop/",
+      "date": "Dec. 2022",
+      "skills": "cartography, data analysis",
+      "tech": "Google Earth Engine"
+    }
+  ],
+  "17": [
+    {
+      "order": 17,
+      "hed": "The gold-mining city that is destroying a sacred Venezuelan mountain",
+      "thumbnail": "yapacana",
+      "link": "https://wapo.st/3BDyBjm",
+      "date": "Dec. 2022",
+      "skills": "cartography, remote sensing",
+      "tech": "Blender, Google Earth Engine, GDAL, Adobe Photoshop"
+    }
+  ],
+  "18": [
+    {
+      "order": 18,
+      "hed": "100-degree days for weeks? See where streaks have broken records.",
+      "thumbnail": "hundred-degrees",
+      "link": "https://wapo.st/3VQJzZv",
+      "date": "July 2023",
+      "skills": "data analysis, cartograpy",
+      "tech": "R, Datawrapper"
+    }
+  ],
+  "19": [
+    {
+      "order": 19,
+      "hed": "The ancient Turkish city that ceased to exist after the earthquakes",
+      "thumbnail": "antakya",
+      "link": "https://www.washingtonpost.com/world/2023/02/23/earthquake-antakya-abandoned-photos/",
+      "date": "Feb. 2023",
+      "skills": "cartography, remote sensing",
+      "tech": "Adobe Illustrator, GDAL"
+    }
+  ]
+}
