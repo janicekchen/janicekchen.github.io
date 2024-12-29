@@ -43,7 +43,7 @@
         height: 150px;
         background-image: var(--imgUrl);
         background-size: cover;
-        background-position: center;
+        background-position: 50% 25%;
         border: 0.5px solid var(--text-color-primary);
     }
 </style>
