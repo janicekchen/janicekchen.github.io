@@ -1,5 +1,4 @@
-{
-  "1": [
+[
     {
       "order": 1,
       "hed": "Israel has bombed much of Gaza to rubble. What would it take to rebuild?",
@@ -8,9 +7,7 @@
       "date": "Oct. 2024",
       "skills": "dev, reporting",
       "tech": "React"
-    }
-  ],
-  "2": [
+    },
     {
       "order": 2,
       "hed": "State affirmative action bans helped White, Asian students, hurt others",
@@ -19,9 +16,7 @@
       "date": "June 2023",
       "skills": "reporting, data analysis",
       "tech": "Adobe Illustrator, R"
-    }
-  ],
-  "3": [
+    },
     {
       "order": 3,
       "hed": "Pigeons are still (sometimes) faster than your internet",
@@ -30,9 +25,7 @@
       "date": "Nov. 2023",
       "skills": "reporting, illustration, cartography, data analysis",
       "tech": "QGIS, R, Procreate"
-    }
-  ],
-  "4": [
+    },
     {
       "order": 4,
       "hed": "Exit polls from the 2024 presidential election",
@@ -41,9 +34,7 @@
       "date": "Nov. 2024",
       "skills": "dev, data analysis",
       "tech": "Datawrapper, R, React"
-    }
-  ],
-  "5": [
+    },
     {
       "order": 5,
       "hed": "How Florida’s abortion law is affecting East Coast abortion clinics",
@@ -52,9 +43,7 @@
       "date": "May 2024",
       "skills": "cartography",
       "tech": "Adobe Illustrator"
-    }
-  ],
-  "6": [
+    },
     {
       "order": 6,
       "hed": "How much are rents going up? See how prices have changed in your area.",
@@ -63,9 +52,7 @@
       "date": "Aug. 2024",
       "skills": "dev, data analysis",
       "tech": "MapLibre, React, R"
-    }
-  ],
-  "7": [
+    },
     {
       "order": 7,
       "hed": "No daylight saving time? See how early or late you would be in the dark.",
@@ -74,9 +61,7 @@
       "date": "Dec. 2024",
       "skills": "dev, data analysis, cartography, data visualization",
       "tech": "D3, React, R"
-    }
-  ],
-  "8": [
+    },
     {
       "order": 8,
       "hed": "When Ukraine goes dark",
@@ -85,9 +70,7 @@
       "date": "Mar. 2023",
       "skills": "cartography, remote sensing",
       "tech": "Adobe Illustrator, GDAL"
-    }
-  ],
-  "9": [
+    },
     {
       "order": 9,
       "hed": "‘In the name of God’",
@@ -96,9 +79,7 @@
       "date": "May 2024",
       "skills": "data analysis, data visualization, cartography",
       "tech": "D3, Adobe Illustrator, QGIS"
-    }
-  ],
-  "10": [
+    },
     {
       "order": 10,
       "hed": "As Europe’s heat wave melts roads, Tour de France races into an uncertain future",
@@ -107,9 +88,7 @@
       "date": "July 2022",
       "skills": "cartography, data analysis",
       "tech": "Adobe Illustrator, QGIS"
-    }
-  ],
-  "11": [
+    },
     {
       "order": 11,
       "hed": "Where women made history on Election Day",
@@ -118,9 +97,7 @@
       "date": "Nov. 2024",
       "skills": "reporting, dev, data visualization",
       "tech": "D3, React"
-    }
-  ],
-  "12": [
+    },
     {
       "order": 12,
       "hed": "Paris Olympics medal count: Tracking medals by country in 2024",
@@ -129,9 +106,7 @@
       "date": "Aug. 2024",
       "skills": "data visualization, dev, data analysis",
       "tech": "R, React, Adobe Illustrator"
-    }
-  ],
-  "13": [
+    },
     {
       "order": 13,
       "hed": "Drone strikes, sabotage, shelling: Russia’s war on Ukraine comes to Russia",
@@ -140,9 +115,7 @@
       "date": "Mar. 2023",
       "skills": "data analysis, cartography",
       "tech": "R, QGIS, Adobe Illustrator"
-    }
-  ],
-  "14": [
+    },
     {
       "order": 14,
       "hed": "Half of Black D.C. residents lack easy access to health care, analysis shows",
@@ -151,9 +124,7 @@
       "date": "Jan. 2024",
       "skills": "cartography, data analysis",
       "tech": "QGIS, R, Adobe Illustrator"
-    }
-  ],
-  "15": [
+    },
     {
       "order": 15,
       "hed": "Tracking damage within the Gaza Strip through maps",
@@ -162,9 +133,7 @@
       "date": "Dec. 2023",
       "skills": "cartography",
       "tech": "QGIS, Adobe Illustrator"
-    }
-  ],
-  "16": [
+    },
     {
       "order": 16,
       "hed": "As Arctic air blasts U.S., see where temperatures will fall fastest and farthest",
@@ -173,9 +142,7 @@
       "date": "Dec. 2022",
       "skills": "cartography, data analysis",
       "tech": "Google Earth Engine"
-    }
-  ],
-  "17": [
+    },
     {
       "order": 17,
       "hed": "The gold-mining city that is destroying a sacred Venezuelan mountain",
@@ -184,9 +151,7 @@
       "date": "Dec. 2022",
       "skills": "cartography, remote sensing",
       "tech": "Blender, Google Earth Engine, GDAL, Adobe Photoshop"
-    }
-  ],
-  "18": [
+    },
     {
       "order": 18,
       "hed": "100-degree days for weeks? See where streaks have broken records.",
@@ -195,9 +160,8 @@
       "date": "July 2023",
       "skills": "data analysis, cartograpy",
       "tech": "R, Datawrapper"
-    }
-  ],
-  "19": [
+    },
+
     {
       "order": 19,
       "hed": "The ancient Turkish city that ceased to exist after the earthquakes",
@@ -207,5 +171,5 @@
       "skills": "cartography, remote sensing",
       "tech": "Adobe Illustrator, GDAL"
     }
-  ]
-}
+  
+]
