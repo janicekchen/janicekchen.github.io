@@ -75,7 +75,7 @@
         max-width: 640px;
         margin: auto;
         display: grid;
-        grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr);
+        grid-template-columns: minmax(auto, 1fr);
         gap: 10px 20px;
 
         @media (max-width: 550px) {

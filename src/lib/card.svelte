@@ -36,8 +36,6 @@
 
     .card-container {
         /*border: 1px solid orange;/*/
-        flex-basis: 50%;
-        flex-grow: 1;
         box-sizing: border-box;
     }
 
