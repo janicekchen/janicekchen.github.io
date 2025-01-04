@@ -1,11 +1,11 @@
 <script>
-    import img1 from '$lib/img/bb_1.jpg'
-    import img2 from '$lib/img/bb_2.jpg'
-    import img3 from '$lib/img/bb_3.jpg'
-    import img4 from '$lib/img/bb_4.jpg'
-    import img5 from '$lib/img/kayak_1.jpg'
-    import img6 from '$lib/img/kayak_2.jpg'
-    import img7 from '$lib/img/kayak_3.jpg'
+    import img1 from '/img/bb_1.jpg'
+    import img2 from '/img/bb_2.jpg'
+    import img3 from '/img/bb_3.jpg'
+    import img4 from '/img/bb_4.jpg'
+    // import img5 from '/img/kayak_1.jpg'
+    // import img6 from '/img/kayak_2.jpg'
+    import img7 from '/img/kayak_3.jpg'
 
 </script>
 
@@ -27,8 +27,8 @@
     <h3>i built a skin-on-frame kayak</h3>
     <h4>skin: ballistic nylon; frame: pine, cedar, ash</h4>
     <div class='photo-wrapper'>
-        <img src={img5} alt="map with LED lights shining through it. each LED represents a beach where you can go clamming. the LEDs are colored red, yellow, and green to communicate the ability to clam on the corresponding beach"/>
-        <img src={img6} alt="close up of map"/>
+        <!-- <img src={img5} alt="map with LED lights shining through it. each LED represents a beach where you can go clamming. the LEDs are colored red, yellow, and green to communicate the ability to clam on the corresponding beach"/> -->
+        <!-- <img src={img6} alt="close up of map"/> -->
         <img src={img7  } alt="the printed circuit board that powers the LEDs, connected to a raspberry pi, a battery pack, and a switch"/>
     </div>
 </div>

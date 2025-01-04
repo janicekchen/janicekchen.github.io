@@ -1,8 +1,8 @@
 <script>
     import Card from '$lib/card.svelte'
-    import img1 from '$lib/img/selected_1.png'
-    import img2 from '$lib/img/selected_2.png'
-    import img3 from '$lib/img/selected_3.png'
+    // import img1 from '$lib/img/selected_1.png'
+    // import img2 from '$lib/img/selected_2.png'
+    // import img3 from '$lib/img/selected_3.png'
     import { base } from '$app/paths';
 </script>
 <div class="container">
@@ -13,7 +13,7 @@
 <!-- <p class="bio">hello [at] janicekchen.com</p> -->
     <h2>selected work</h2>
     <div class="selected-works">
-        <Card 
+        <!-- <Card 
             hed={"State affirmative action bans helped White, Asian students, hurt others"} 
             subhed="The Washington Post" 
             url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
@@ -27,7 +27,7 @@
             hed={"Milk Country"} 
             subhed={"a story about cows, history and familiar landscapes"} 
             url={"https://vermont.vercel.app"}
-            --imgUrl={`url(${img3})`}/>
+            --imgUrl={`url(${img3})`}/> -->
     </div>
 </div>
 

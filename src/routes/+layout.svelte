@@ -5,7 +5,11 @@
     import '@fontsource/libre-baskerville';
     
     import { base } from '$app/paths';
+    import { page } from '$app/stores';
     import '../style.css';
+
+    $: path = $page.url.pathname;
+    $: console.log(path)
     
 </script>
 <header>
@@ -15,8 +19,8 @@
     <div class="nav-wrapper">
         <nav>
             <ul>
-                <li><a href="{base}/work">professional work</a></li>
-                <li><a href="{base}/sidequests">sidequests</a></li>
+                <li><a class:is-active={path === `/work`} href="{base}/work">professional work</a></li>
+                <li><a class:is-active={path === `/sidequests`} href="{base}/sidequests">sidequests</a></li>
             </ul>
         </nav>
     </div>
@@ -54,6 +58,10 @@
         -webkit-text-decoration-line: underline;
         -webkit-text-decoration-thickness: 3px;
         -webkit-text-decoration-color: greenyellow;
+    }
+
+    .is-active {
+        color: orange !important;
     }
 
     a:hover {
