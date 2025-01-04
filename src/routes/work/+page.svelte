@@ -27,4 +27,12 @@
         margin: auto;
         text-align: center;
     }
+
+    .cards-container {
+        /* max-width: 640px; */
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px 10px;
+    }
 </style>

@@ -6,8 +6,8 @@
 </script>
 <a href={url}>
     <div class=card-container>
-        <h3>{hed}</h3>
         <div class=thumbnail></div>
+        <h3>{hed}</h3>
         <!-- <h4>{subhed}</h4> -->
     </div>
 </a>
@@ -21,10 +21,11 @@
     h3 {
         font-family: var(--font-primary);
         color: var(--text-color-primary);
-        margin: 5px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
         font-size: 0.75em;
         letter-spacing: 0.25px;
         line-height: 1.5em;
+        /* min-height: 30px; */
     }
 
     h4 {
@@ -37,14 +38,14 @@
     .card-container {
         /*border: 1px solid orange;/*/
         box-sizing: border-box;
-        margin: 5px 0px;
+        margin: 10px 0px;
     }
 
     .thumbnail {
-        height: 150px;
+        aspect-ratio: 1;
         background-image: var(--imgUrl);
         background-size: cover;
-        background-position: 50% 25%;
+        background-position: 50% 50%;
         border: 0.5px solid var(--text-color-primary);
     }
 </style>
