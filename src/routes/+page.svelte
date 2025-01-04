@@ -13,21 +13,21 @@
 <!-- <p class="bio">hello [at] janicekchen.com</p> -->
     <h2>selected work</h2>
     <div class="selected-works">
-        <!-- <Card 
+        <Card 
             hed={"State affirmative action bans helped White, Asian students, hurt others"} 
             subhed="The Washington Post" 
             url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
-            --imgUrl={`url(${img1})`}/>
+            --imgUrl={`url(/img/selected_1.png)`}/>
         <Card 
         hed={"Pigeons are still (sometimes) faster than your internet"} 
         subhed="The Washington Post" 
         url="https://www.washingtonpost.com/technology/2023/11/10/pigeons-are-faster-than-your-internet/?itid=ap_janicekaichen"
-        --imgUrl={`url(${img2})`}/>
+        --imgUrl={`url(/img/selected_2.png)`}/>
         <Card 
             hed={"Milk Country"} 
             subhed={"a story about cows, history and familiar landscapes"} 
             url={"https://vermont.vercel.app"}
-            --imgUrl={`url(${img3})`}/> -->
+            --imgUrl={`url(/img/selected_3.png)`}/>
     </div>
 </div>
 
@@ -76,7 +76,7 @@
         max-width: 640px;
         margin: auto;
         display: grid;
-        grid-template-columns: minmax(auto, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px 20px;
 
         @media (max-width: 550px) {

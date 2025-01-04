@@ -49,26 +49,27 @@
     }
 
     a, a:visited, a:active {
-        color: inherit;
+        color: var(--text-color-primary);
         text-decoration: none;
         padding: 20px 0px;
-        text-decoration-line: underline;
+        /* text-decoration-line: underline;
         text-decoration-thickness: 1px;
         text-decoration-color: greenyellow;
         -webkit-text-decoration-line: underline;
         -webkit-text-decoration-thickness: 3px;
-        -webkit-text-decoration-color: greenyellow;
+        -webkit-text-decoration-color: greenyellow; */
     }
 
     .is-active {
-        color: orange !important;
+        text-decoration: underline;
+        /* text-decoration-style:wavy; */
     }
 
     a:hover {
         color: deeppink;
         text-decoration-line: underline;
         text-decoration-style: wavy;
-        text-decoration-thickness: 3px;
+        text-decoration-thickness: 1px;
         text-decoration-color: deeppink;
         -webkit-text-decoration-line: underline;
         -webkit-text-decoration-style: wavy;
