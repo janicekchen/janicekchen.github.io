@@ -16,7 +16,7 @@
         <Card 
             hed={card.hed} 
             url={card.link}
-            --imgUrl={`url(${'$lib/img/work/' + card.thumbnail +'.jpg'})`}
+            --imgUrl={`url(${'img/work/' + card.thumbnail +'.jpg'})`}
         />
     {/each}
 
