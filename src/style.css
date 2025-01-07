@@ -4,6 +4,12 @@
     /* --font-secondary: 'Cormorant Garamond', serif; */
     /* --font-secondary: 'Times New Roman', serif; */
     /* --font-primary: "Times New Roman", serif; */
-     background-color: #f0f4e4;
+     background-color: #ffe9fb;
     --text-color-primary: #384700;
+}
+
+html, body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
