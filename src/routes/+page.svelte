@@ -7,7 +7,7 @@
 </script>
 <div class="container">
     <p class="bio">
-        I'm a journalist, data vizualization designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
+        I'm a journalist, data visualization designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
     <p></p>
 <!-- <p class="bio">hello [at] janicekchen.com</p> -->
