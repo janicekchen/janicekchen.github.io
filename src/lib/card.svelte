@@ -1,14 +1,14 @@
 <script>
     import '../style.css'
     export let hed 
-    export let subhed 
+    export let date
     export let url
 </script>
 <a href={url}>
     <div class=card-container>
         <div class=thumbnail></div>
         <h3>{hed}</h3>
-        <!-- <h4>{subhed}</h4> -->
+        <h4>{date}</h4>
     </div>
 </a>
 
@@ -29,10 +29,12 @@
     }
 
     h4 {
-        margin: 0px 0px 10px 0;
+        margin: 5px 0px 10px 0;
         font-weight: 300;
-        font-size: 0.75em;
-        font-family: var(--font-secondary)
+        font-size: 0.65em;
+        font-family: var(--font-primary);
+        color: var(--text-color-primary);
+        text-transform: uppercase;
     }
 
     .card-container {

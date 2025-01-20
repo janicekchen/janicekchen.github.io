@@ -7,25 +7,30 @@
 </script>
 <div class="container">
     <p class="bio">
-        I'm a journalist, data viz designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
+        I'm a journalist, data vizualization designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
     <p></p>
 <!-- <p class="bio">hello [at] janicekchen.com</p> -->
-    <h2>selected work</h2>
+    <h2>A few projects...</h2>
     <div class="selected-works">
         <Card 
-            hed={"State affirmative action bans helped White, Asian students, hurt others"} 
-            subhed="The Washington Post" 
+            hed={"Exit polls from the 2024 presidential election"} 
+            date="Nov. 2024" 
             url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
-            --imgUrl={`url(/img/selected_1.png)`}/>
+            --imgUrl={`url(/img/work/exit-polls.jpg)`}/>
+        <Card 
+            hed={"State affirmative action bans helped White, Asian students, hurt others"} 
+            date="June 2023" 
+            url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
+            --imgUrl={`url(/img/work/affirmative-action.jpg)`}/>
         <Card 
         hed={"Pigeons are still (sometimes) faster than your internet"} 
-        subhed="The Washington Post" 
+        date="Nov. 2023"
         url="https://www.washingtonpost.com/technology/2023/11/10/pigeons-are-faster-than-your-internet/?itid=ap_janicekaichen"
-        --imgUrl={`url(/img/selected_2.png)`}/>
+        --imgUrl={`url(/img/work/pigeons.jpg)`}/>
         <Card 
             hed={"Milk Country"} 
-            subhed={"a story about cows, history and familiar landscapes"} 
+            date={"Dec. 2020"}
             url={"https://vermont.vercel.app"}
             --imgUrl={`url(/img/selected_3.png)`}/>
     </div>
@@ -39,8 +44,8 @@
 
     .bio {
         font-weight: 300;
-        font-size: 14px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 22px;
         font-family: var(--font-secondary);
         color: var(--text-color-primary);
         font-weight: 300;
@@ -51,7 +56,7 @@
 
     h2 {
         font-size: 1em;
-        font-weight: 400;
+        font-weight: 600;
         color: var(--text-color-primary);
         letter-spacing: 1px;
         /* text-transform: uppercase; */

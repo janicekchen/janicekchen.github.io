@@ -16,6 +16,7 @@
         <Card 
             hed={card.hed} 
             url={card.link}
+            date={card.date}
             --imgUrl={`url(${'img/work/' + card.thumbnail +'.jpg'})`}
         />
     {/each}

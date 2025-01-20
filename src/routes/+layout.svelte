@@ -2,7 +2,9 @@
     // import '@fontsource-variable/overpass-mono';
     // import '@fontsource/cormorant-garamond';
     // import '@fontsource/comic-neue';
-    import '@fontsource/ibm-plex-sans';
+    import '@fontsource/ibm-plex-sans/600.css';
+    import '@fontsource/ibm-plex-sans/300.css';
+    import '@fontsource/ibm-plex-sans/400.css';
     
     import { base } from '$app/paths';
     import { page } from '$app/stores';
@@ -78,8 +80,8 @@
     }
 
     h1 {
-        font-size: 1.25em;
-        font-weight: bold;
+        /* font-size: 1.25em; */
+        font-weight: 600;
     }
 
     ul {
@@ -89,7 +91,8 @@
         right: 0;
         display: flex;
         gap: 30px;
-        font-size: 0.75em;
+        font-size: 0.9em;
+        font-weight: 400;
         text-decoration: none;
         color: #000;
     }
