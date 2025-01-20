@@ -1,6 +1,6 @@
 <script>
     import '../style.css'
-    export let hed 
+    export let hed
     export let date
     export let url
 </script>

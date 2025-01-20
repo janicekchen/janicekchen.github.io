@@ -51,6 +51,7 @@
         font-weight: 300;
         max-width: 640px;
         margin: auto;
+        letter-spacing: 0.1px;
         /* text-align: center; */
     }
 
@@ -84,8 +85,22 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px 20px;
 
-        @media (max-width: 550px) {
-            grid-template-columns: minmax(auto, 1fr);
+        @media (max-width: 1200px) {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px 10px;
+        }
+        
+        @media (max-width: 960px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px 10px;
+        }
+
+        @media (max-width: 640px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px 10px;
         }
         
 
