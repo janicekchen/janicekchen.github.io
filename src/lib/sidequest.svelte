@@ -16,8 +16,8 @@
 </Splide>
 <div class="desc">
 	<h3 class="sidequest-title">
-		<mark> Bivariate Bivalves: Electronic Map </mark>
-        <!-- <mark>{hed}</mark> -->
+		<!-- <mark> Bivariate Bivalves: Electronic Map </mark> -->
+        <mark>{hed}</mark>
 	</h3>
 	<p class="sidequest-desc">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis, nulla ut elementum rhoncus,
@@ -63,5 +63,6 @@
 		height: auto;
         padding: 0px 10px;
         box-sizing: border-box;
+		margin-bottom: 40px;
 	}
 </style>

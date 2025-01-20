@@ -1,0 +1,14 @@
+[
+	{
+		"hed": "Bivariate Bivalves",
+		"subhed": "Electronic LED map, updates daily with water toxicity and tide data.",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis, nulla ut elementum rhoncus, urna diam iaculis nisl, sed lacinia libero lectus at dolor. Maecenas rhoncus lobortis diam, in porttitor quam aliquet eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at justo ac nunc sagittis maximus. In hac habitasse platea dictumst. ",
+		"images": ["bb_1.jpg", "bb_2.jpg", "bb_3.jpg", "bb_4.jpg"]
+	},
+    {
+		"hed": "Greenland Sea Kayak",
+		"subhed": "Skin-on-frame kayak. Ballistic nylon, polyurethane, cedar, pine, ash.",
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis, nulla ut elementum rhoncus, urna diam iaculis nisl, sed lacinia libero lectus at dolor. Maecenas rhoncus lobortis diam, in porttitor quam aliquet eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at justo ac nunc sagittis maximus. In hac habitasse platea dictumst. ",
+		"images": ["kayak_1.jpg", "kayak_2.jpg"]
+	}
+]
