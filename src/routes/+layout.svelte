@@ -45,8 +45,11 @@
         font-family: var(--font-primary);
         font-weight: bold;
 
-        @media (max-width: 550px) {
+        @media (max-width: 640px) {
             flex-direction: column;
+            padding: 10px;
+            margin-bottom: 15px;
+            
         }
     }
 
