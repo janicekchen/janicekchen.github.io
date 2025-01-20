@@ -53,6 +53,10 @@
         margin: auto;
         letter-spacing: 0.1px;
         /* text-align: center; */
+
+        @media (max-width: 640px) {
+            text-align: center;
+        }
     }
 
     h2 {
@@ -63,10 +67,10 @@
         /* text-transform: uppercase; */
         margin: 50px auto 10px auto;
         max-width: 640px;
-        /* text-decoration-style: wavy;
-        text-decoration-line: underline;
-        text-decoration-thickness: 0.5px; */
-        /* text-align: center; */
+
+        @media (max-width: 640px) {
+            margin: 0 0px;
+        }
 
 
     }
@@ -85,7 +89,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px 20px;
 
-        @media (max-width: 1200px) {
+        /* @media (max-width: 1200px) {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 10px 10px;
@@ -95,7 +99,7 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 10px 10px;
-        }
+        } */
 
         @media (max-width: 640px) {
             display: grid;
