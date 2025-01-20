@@ -24,24 +24,20 @@
 
 </div>
 <style>
-    p {
-        margin: auto;
-        text-align: center;
-    }
-
     .cards-container {
         /* max-width: 640px; */
         margin: auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 10px 10px;
+        padding: 0px 10px; 
 
         @media (max-width: 1200px) {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 10px 10px;
         }
-        
+
         @media (max-width: 960px) {
             display: grid;
             grid-template-columns: repeat(3, 1fr);

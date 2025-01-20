@@ -9,3 +9,7 @@
     --text-color-primary: #384700;
     /* --text-color-primary: #7f0040; */
 }
+
+html, body {
+    margin: 0
+}

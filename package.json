@@ -33,6 +33,7 @@
 		"@fontsource/cormorant-garamond": "^5.0.14",
 		"@fontsource/ibm-plex-sans": "^5.1.1",
 		"@fontsource/libre-baskerville": "^5.1.0",
+		"@splidejs/svelte-splide": "^0.2.9",
 		"@stitches/core": "^1.2.8",
 		"stitches": "^1.2.11"
 	}

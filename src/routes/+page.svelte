@@ -1,6 +1,7 @@
 <script>
     import Card from '$lib/card.svelte'
     // import img1 from '$lib/img/selected_1.png'
+    import img1 from "../../static/img/sidequests/bb_1.jpg"
     // import img2 from '$lib/img/selected_2.png'
     // import img3 from '$lib/img/selected_3.png'
     import { base } from '$app/paths';
@@ -9,7 +10,6 @@
     <p class="bio">
         I'm a journalist, data visualization designer, and cartographer based in Seattle. Full time at the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>. 
     </p>
-    <p></p>
 <!-- <p class="bio">hello [at] janicekchen.com</p> -->
     <h2>A few projects...</h2>
     <div class="selected-works">
@@ -56,11 +56,12 @@
 
         @media (max-width: 640px) {
             text-align: center;
+            margin: 0px 10px;
         }
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 0.85em;
         font-weight: 600;
         color: var(--text-color-primary);
         letter-spacing: 1px;
@@ -69,7 +70,8 @@
         max-width: 640px;
 
         @media (max-width: 640px) {
-            margin: 15 0px;
+            margin: 30px 0px 10px 0px;
+            text-align: center;
         }
 
 
@@ -88,6 +90,8 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px 20px;
+        padding: 0px 10px;
+        box-sizing: border-box;
 
         /* @media (max-width: 1200px) {
             display: grid;

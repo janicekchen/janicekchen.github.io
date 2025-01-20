@@ -3,15 +3,28 @@
     // import '@fontsource/cormorant-garamond';
     // import '@fontsource/comic-neue';
     import '@fontsource/ibm-plex-sans/600.css';
-    import '@fontsource/ibm-plex-sans/300.css';
+    import '@fontsource/ibm-plex-sans/500.css';
     import '@fontsource/ibm-plex-sans/400.css';
+    import '@fontsource/ibm-plex-sans/300.css';
     
     import { base } from '$app/paths';
     import { page } from '$app/stores';
     import '../style.css';
 
-    $: path = $page.url.pathname;
-    $: console.log(path)
+    $: path = $page.url.pathname
+
+    import { onNavigate } from '$app/navigation';
+
+onNavigate((navigation) => {
+	if (!document.startViewTransition) return;
+
+	return new Promise((resolve) => {
+		document.startViewTransition(async () => {
+			resolve();
+			await navigation.complete;
+		});
+	});
+});
     
 </script>
 <header>
@@ -33,6 +46,7 @@
 
 <style>
     header {
+        /* background-color: pink; */
         margin: auto;
         padding: 30px 0;
         color: var(--text-color-primary);
@@ -48,7 +62,7 @@
         @media (max-width: 640px) {
             flex-direction: column;
             padding: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 30px;
             
         }
     }
@@ -95,7 +109,7 @@
         display: flex;
         gap: 30px;
         font-size: 0.9em;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: none;
         color: #000;
     }
