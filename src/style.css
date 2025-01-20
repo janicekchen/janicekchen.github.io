@@ -1,9 +1,9 @@
 :root {
     /* --font-primary: 'Overpass Mono Variable', monospace; */
-    --font-primary: "Libre Baskerville", serif;
+    --font-primary: "IBM Plex Sans", sans-serif;
     /* --font-secondary: 'Cormorant Garamond', serif; */
     /* --font-secondary: 'Times New Roman', serif; */
     /* --font-primary: "Times New Roman", serif; */
-     background-color: #f0f4e4;
+     /* background-color: #f0f4e4; */
     --text-color-primary: #384700;
 }

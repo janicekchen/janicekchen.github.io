@@ -1,8 +1,8 @@
 <script>
-    import '@fontsource-variable/overpass-mono';
-    import '@fontsource/cormorant-garamond';
-    import '@fontsource/comic-neue';
-    import '@fontsource/libre-baskerville';
+    // import '@fontsource-variable/overpass-mono';
+    // import '@fontsource/cormorant-garamond';
+    // import '@fontsource/comic-neue';
+    import '@fontsource/ibm-plex-sans';
     
     import { base } from '$app/paths';
     import { page } from '$app/stores';

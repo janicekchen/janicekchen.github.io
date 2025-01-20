@@ -33,9 +33,9 @@
 
 <style>
 
-    mark {
+    /* mark {
         color: deeppink;
-    }
+    } */
 
     .bio {
         font-weight: 300;
