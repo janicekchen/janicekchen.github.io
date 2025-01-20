@@ -65,11 +65,11 @@
         color: var(--text-color-primary);
         letter-spacing: 1px;
         /* text-transform: uppercase; */
-        margin: 50px auto 10px auto;
+        margin: 50px auto 15px auto;
         max-width: 640px;
 
         @media (max-width: 640px) {
-            margin: 0 0px;
+            margin: 15 0px;
         }
 
 
