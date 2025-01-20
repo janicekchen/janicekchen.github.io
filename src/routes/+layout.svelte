@@ -34,7 +34,7 @@ onNavigate((navigation) => {
     <div class="nav-wrapper">
         <nav>
             <ul>
-                <li><a class:is-active={path === `/work`} href="{base}/work">journalism</a></li>
+                <li><a class:is-active={path === `/work`} href="{base}/work">journalism / carto</a></li>
                 <li><a class:is-active={path === `/sidequests`} href="{base}/sidequests">sidequests</a></li>
             </ul>
         </nav>
