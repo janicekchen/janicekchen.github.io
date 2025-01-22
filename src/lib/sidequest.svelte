@@ -5,14 +5,15 @@
 	export let subhed;
 	export let images;
 </script>
-
-<Splide aria-label="My Favorite Images">
-	{#each images as image}
-		<SplideSlide>
-			<img class="slide" src={`img/sidequests/${image}`} alt="TKTK" />
-		</SplideSlide>
-	{/each}
-</Splide>
+<div class="splide-container">
+	<Splide aria-label="My Favorite Images">
+		{#each images as image}
+			<SplideSlide>
+				<img class="slide" src={`img/sidequests/${image}`} alt="TKTK" />
+			</SplideSlide>
+		{/each}
+	</Splide>
+</div>
 <div class="desc">
 	<h3 class="sidequest-hed">
 		<!-- <mark> Bivariate Bivalves: Electronic Map </mark> -->
@@ -31,11 +32,21 @@
 </div>
 
 <style>
+
+	.splide-container {
+		max-width: 640px;
+		margin: auto;
+		@media (max-width: 640px) {
+			padding: 0px 10px;
+		}
+	}
 	.slide {
 		max-width: 640px;
 		width: 100%;
 		aspect-ratio: 1;
 		object-fit: cover;
+		border: 0.5px solid var(--text-color-primary);
+		box-sizing: border-box;
 	}
 
 	mark {
@@ -76,9 +87,15 @@
 	.desc {
 		/* background-color: /tomato; */
 		width: 100%;
+		max-width: 640px;
+		margin: auto;
 		height: auto;
-		padding: 0px 10px;
+		
 		box-sizing: border-box;
 		margin-bottom: 40px;
+
+		@media (max-width: 640px) {
+			padding: 0px 10px;
+		}
 	}
 </style>
