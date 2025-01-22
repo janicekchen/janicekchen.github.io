@@ -60,28 +60,39 @@
 		font-family: var(--font-primary);
 		color: var(--text-color-primary);
 		margin: 10px 0px 0px 0px;
-		font-size: 0.75em;
 		letter-spacing: 0.25px;
+		font-size: 1.25em;
 		/* line-height: 1.25em; */
 		/* min-height: 30px; */
+		
+		@media (max-width: 640px) {
+			font-size: 1em;
+		}
 	}
 
 	.sidequest-subhed {
 		font-family: var(--font-primary);
 		color: var(--text-color-primary);
 		margin: 0px;
-		font-size: 0.75em;
+		font-size: 0.9em;
 		font-weight: 300;
 		letter-spacing: 0.25px;
 		/* line-height: 1.25em; */
 		/* min-height: 30px; */
+		@media (max-width: 640px) {
+			font-size: 0.9em;
+		}
 	}
 
 
 	p {
 		font-family: var(--font-primary);
 		color: var(--text-color-primary);
-		font-size: 0.75em;
+		font-size: 14px;
+
+		@media (max-width: 640px) {
+			font-size: 12px;
+		}
 	}
 
 	.desc {
