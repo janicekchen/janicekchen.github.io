@@ -9,8 +9,10 @@
 
 <div class="container">
 	<p class="bio">
-		I'm a journalist, data visualization designer, and cartographer based in Seattle. Full time at
-		the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>.
+		<mark>
+			I'm a journalist, data visualization designer, and cartographer based in Seattle. Full time at
+			the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>.
+		</mark>
 	</p>
 	<!-- <p class="bio">hello [at] janicekchen.com</p> -->
 	<h2>A few projects...</h2>
@@ -43,16 +45,16 @@
 </div>
 
 <style>
-	/* mark {
-        color: deeppink;
-    } */
+	mark {
+		background-color: rgba(255, 255, 255, 0.5);
+        color: var(--text-color-primary);
+	}
 
 	.bio {
 		font-weight: 300;
 		font-size: 16px;
 		line-height: 22px;
 		font-family: var(--font-secondary);
-		color: var(--text-color-primary);
 		font-weight: 300;
 		max-width: 640px;
 		margin: auto;
