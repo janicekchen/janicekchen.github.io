@@ -28,6 +28,7 @@ onNavigate((navigation) => {
     
 </script>
 <header>
+    <img class="header-map" alt="decorative map showing roads and coastline of hong kong island." src="img/header-map.jpg">
     <h1>
         <a href="{base}/">janice kai chen</a>
     </h1>
@@ -65,6 +66,16 @@ onNavigate((navigation) => {
             margin-bottom: 30px;
             
         }
+    }
+    
+    .header-map {
+        width: 100vw;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -5;
+        opacity: 30%;
     }
 
     a, a:visited, a:active {
