@@ -14,6 +14,12 @@
 			the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>.
 		</mark>
 	</p>
+	<p class="bio">
+		<mark>
+			<br>
+			Get in touch: hello [at] janicekchen [dot] com.
+		</mark>
+	</p>
 	<!-- <p class="bio">hello [at] janicekchen.com</p> -->
 	<h2>A few projects...</h2>
 	<div class="selected-works">
