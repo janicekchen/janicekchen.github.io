@@ -51,6 +51,10 @@ onNavigate((navigation) => {
 
 <slot></slot>
 
+<footer>
+    <span>Built with SvelteKit, Janice Kai Chen 2025</span>
+</footer>
+
 <style>
     mark {
         background-color: rgba(255, 255, 255, 0);
@@ -81,6 +85,30 @@ onNavigate((navigation) => {
         top: 0; 
         font-family: var(--font-primary);
         font-weight: bold;
+
+        @media (max-width: 640px) {
+            flex-direction: column;
+            padding: 10px;
+            margin-bottom: 30px;
+            
+        }
+    }
+
+
+    footer {
+        /* background-color: pink; */
+        margin: auto;
+        padding: 30px 0;
+        color: var(--text-color-primary);
+        max-width: 640px;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 1px;
+        font-size: 10px;
+        opacity: 50%;
+        top: 0; 
+        font-family: var(--font-primary);
 
         @media (max-width: 640px) {
             flex-direction: column;
