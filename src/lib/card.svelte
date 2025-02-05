@@ -66,4 +66,10 @@
 		background-position: 50% 50%;
 		border: 0.5px solid var(--text-color-primary);
 	}
+
+	.thumbnail:hover {
+		/* border: 3px solid var(--text-color-primary); */
+		box-sizing: content-box;
+		box-shadow: 0px 0px 10px #ffb0d5;
+	}
 </style>

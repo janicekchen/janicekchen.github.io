@@ -55,7 +55,6 @@ onNavigate((navigation) => {
     mark {
         background-color: rgba(255, 255, 255, 0);
         color: var(--text-color-primary);
-        
     }
 
     .is-active {
