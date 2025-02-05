@@ -30,13 +30,19 @@ onNavigate((navigation) => {
 <header>
     <img class="header-map" alt="decorative map showing roads and coastline of hong kong island." src="img/header-map.jpg">
     <h1>
+        <mark>
         <a href="{base}/">janice kai chen</a>
+        </mark>
     </h1>
     <div class="nav-wrapper">
         <nav>
             <ul>
-                <li><a class:is-active={path === `/work`} href="{base}/work">journalism / carto</a></li>
-                <li><a class:is-active={path === `/sidequests`} href="{base}/sidequests">sidequests</a></li>
+                <mark class:is-active={path === `/work`}>
+                    <li><a  href="{base}/work">journalism / carto</a></li>
+                </mark>
+                <mark class:is-active={path === `/sidequests`}>
+                    <li><a  href="{base}/sidequests">sidequests</a></li>
+                </mark>
             </ul>
         </nav>
     </div>
@@ -46,6 +52,23 @@ onNavigate((navigation) => {
 <slot></slot>
 
 <style>
+    mark {
+        background-color: rgba(255, 255, 255, 0);
+        color: var(--text-color-primary);
+        
+    }
+
+    .is-active {
+		background-color: var(--text-color-highlight);
+        color: var(--text-color-primary);
+	}
+
+    mark:hover {
+        background-color: var(--text-color-highlight);
+        color: var(--text-color-primary);
+    }
+
+
     header {
         /* background-color: pink; */
         margin: auto;
@@ -90,13 +113,9 @@ onNavigate((navigation) => {
         -webkit-text-decoration-color: greenyellow; */
     }
 
-    .is-active {
-        text-decoration: underline;
-        /* text-decoration-style:wavy; */
-    }
 
     a:hover {
-        color: deeppink;
+        /* color: deeppink;
         text-decoration-line: underline;
         text-decoration-style: wavy;
         text-decoration-thickness: 1px;
@@ -104,7 +123,7 @@ onNavigate((navigation) => {
         -webkit-text-decoration-line: underline;
         -webkit-text-decoration-style: wavy;
         -webkit-text-decoration-thickness: 3px;
-        -webkit-text-decoration-color: deeppink;
+        -webkit-text-decoration-color: deeppink; */
     }
 
     h1 {

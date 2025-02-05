@@ -21,7 +21,7 @@
 	}
 
 	mark {
-		background-color: #fafdf2;
+		background-color: var(--text-color-highlight);
         color: var(--text-color-primary);
         /* padding: 5px 5px; */
         /* display:inline-block; */
