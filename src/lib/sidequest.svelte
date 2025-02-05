@@ -4,6 +4,7 @@
 	export let hed;
 	export let subhed;
 	export let images;
+	export let text
 </script>
 <div class="splide-container">
 	<Splide aria-label="My Favorite Images">
@@ -24,10 +25,7 @@
 		<mark>{subhed}</mark>
 	</h4>
 	<p class="sidequest-desc">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mollis, nulla ut elementum rhoncus,
-		urna diam iaculis nisl, sed lacinia libero lectus at dolor. Maecenas rhoncus lobortis diam, in
-		porttitor quam aliquet eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-		at justo ac nunc sagittis maximus. In hac habitasse platea dictumst.
+		{text}
 	</p>
 </div>
 
@@ -89,7 +87,7 @@
 		font-family: var(--font-primary);
 		color: var(--text-color-primary);
 		font-size: 14px;
-
+		font-weight: 300;
 		@media (max-width: 640px) {
 			font-size: 12px;
 		}

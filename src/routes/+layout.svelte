@@ -97,7 +97,7 @@ onNavigate((navigation) => {
         top: 0;
         left: 0;
         z-index: -5;
-        opacity: 30%;
+        opacity: 50%;
     }
 
     a, a:visited, a:active {

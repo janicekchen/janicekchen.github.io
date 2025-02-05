@@ -8,7 +8,7 @@
 	<Sidequest
 		hed={sidequest.hed}
 		subhed={sidequest.subhed}
-		desc={sidequest.desc}
+		text={sidequest.text}
 		images={sidequest.images}
 	/>
 {/each}
