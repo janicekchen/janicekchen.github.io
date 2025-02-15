@@ -130,9 +130,9 @@
 		max-width: 640px;
 		margin: auto;
 		height: auto;
-		
 		box-sizing: border-box;
-		margin-bottom: 40px;
+		margin-top: 0px;
+		margin-bottom: 30px;
 
 		@media (max-width: 640px) {
 			padding: 0px 10px;
