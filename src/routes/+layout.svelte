@@ -120,13 +120,16 @@ onNavigate((navigation) => {
     }
     
     .header-map {
-        width: 100vw;
+        width:1700px;
+        overflow-x: none;
         height: auto;
         position: absolute;
         top: 0;
         left: 0;
         z-index: -5;
         opacity: 50%;
+        margin: auto;
+
     }
 
     a, a:visited, a:active {

@@ -6,6 +6,7 @@
     /* --font-primary: "Times New Roman", serif; */
      /* background-color: #f0f4e4; */
      background-color: #ffffff;
+     overflow-x: hidden;
     --text-color-primary: #384700;
     --text-color-secondary: #ee4f82;
     --text-color-highlight: #fafdf2;
