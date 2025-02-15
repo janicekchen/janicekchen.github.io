@@ -1,0 +1,14 @@
+[
+	{
+		"hed": "Bivariate Bivalves",
+		"subhed": "Electronic LED map, updates daily with water toxicity and tide data.",
+		"text": "A little experiment in electronics that tells me when I can go digging for clams. Clams live in subtidal zones and are only accessible to us during low tide. They can also kill you if the water is poopy: clams eat by filtering nutrients out of the water that they take in and push out via two valves. This map is powered by a Raspberry Pi that runs a script to process daily water toxicity and tide data, and updates the color of LEDs depending on the clammability of a particular location. I talked about this project at NACIS 2023.",
+		"images": ["bb_1.jpg", "bb_2.jpg", "bb_3.jpg", "bb_4.jpg"]
+	},
+	{
+		"hed": "Greenland Sea Kayak",
+		"subhed": "Skin-on-frame kayak. Ballistic nylon, polyurethane, cedar, pine, ash.",
+		"text": "I spent four years on and off building a 16-foot sea kayak.  ",
+		"images": ["kayak_1.jpg", "kayak_2.jpg", "kayak_3.jpg"]
+	}
+]

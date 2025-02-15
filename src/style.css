@@ -1,15 +1,18 @@
 :root {
     /* --font-primary: 'Overpass Mono Variable', monospace; */
-    --font-primary: "Libre Baskerville", serif;
+    --font-primary: "IBM Plex Sans", sans-serif;
     /* --font-secondary: 'Cormorant Garamond', serif; */
     /* --font-secondary: 'Times New Roman', serif; */
     /* --font-primary: "Times New Roman", serif; */
-     background-color: #ffe9fb;
+     /* background-color: #f0f4e4; */
+     background-color: #ffffff;
+     overflow-x: hidden;
     --text-color-primary: #384700;
+    --text-color-secondary: #ee4f82;
+    --text-color-highlight: #fafdf2;
+    /* --text-color-primary: #860057; */
 }
 
 html, body {
-    height: 100vh;
-    padding: 0;
-    margin: 0;
+    margin: 0
 }
