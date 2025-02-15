@@ -57,6 +57,7 @@ onNavigate((navigation) => {
 </footer>
 
 <style>
+
     mark {
         background-color: rgba(255, 255, 255, 0);
         color: var(--text-color-primary);
