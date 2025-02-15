@@ -121,7 +121,7 @@ onNavigate((navigation) => {
     }
     
     .header-map {
-        width:1700px;
+        width:100%;
         overflow-x: none;
         height: auto;
         position: absolute;
