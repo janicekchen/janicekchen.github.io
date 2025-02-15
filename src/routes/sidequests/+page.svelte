@@ -4,6 +4,10 @@
 	// import img from "../../../static/img/sidequests/bb_1.jpg"
 </script>
 
+<svelte:head>
+    <title>janice kai chen | sidequests</title> 
+</svelte:head>
+
 {#each sidequests as sidequest}
 	<Sidequest
 		hed={sidequest.hed}

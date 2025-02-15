@@ -11,6 +11,9 @@
 //   }
 
 </script>
+<svelte:head>
+    <title>janice kai chen | work</title> 
+</svelte:head>
 <div class="cards-container">
     {#each cards as card}
         <Card 

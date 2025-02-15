@@ -6,7 +6,9 @@
 	// import img3 from '$lib/img/selected_3.png'
 	import { base } from '$app/paths';
 </script>
-
+<svelte:head>
+    <title>janice kai chen</title> 
+</svelte:head>
 <div class="container">
 	<p class="bio">
 		<mark>
