@@ -52,7 +52,8 @@ onNavigate((navigation) => {
 <slot></slot>
 
 <footer>
-    <span>Built with SvelteKit, Janice Kai Chen 2025</span>
+    <span><a href="mailto:hello@janieckchen.com">hello@janicekchen.com</a><br></span>
+    <!-- <span>Built with SvelteKit, Janice Kai Chen 2025</span> -->
 </footer>
 
 <style>
