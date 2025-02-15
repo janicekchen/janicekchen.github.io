@@ -64,7 +64,7 @@
 		background-image: var(--imgUrl);
 		background-size: cover;
 		background-position: 50% 50%;
-		border: 1px solid var(--text-color-primary);
+		border: 0.5px solid var(--text-color-primary);
 	}
 
 	.thumbnail:hover {
