@@ -30,7 +30,7 @@ onNavigate((navigation) => {
 <header>
     <img class="header-map" alt="decorative map showing roads and coastline of hong kong island." src="img/header-map.jpg">
     <h1>
-        <mark>
+        <mark class:is-active={false}>
         <a href="{base}/">janice kai chen</a>
         </mark>
     </h1>

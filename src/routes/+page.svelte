@@ -73,6 +73,17 @@
 		}
 	}
 
+	a {
+		/* text-decoration-style: wavy; */
+		text-decoration-thickness: 0.5px;
+		/* text-decoration: none; */
+		color: var(--text-color-primary);
+	}
+
+	a:hover {
+		color: var(--text-color-secondary);
+	}
+
 	h2 {
 		font-size: 0.85em;
 		font-weight: 600;
