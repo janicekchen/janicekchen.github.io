@@ -38,10 +38,10 @@ onNavigate((navigation) => {
         <nav>
             <ul>
                 <mark class:is-active={path === `/work`}>
-                    <li><a  href="{base}/work">journalism / carto</a></li>
+                    <li><a href="{base}/work">journalism / carto</a></li>
                 </mark>
                 <mark class:is-active={path === `/sidequests`}>
-                    <li><a  href="{base}/sidequests">sidequests</a></li>
+                    <li><a href="{base}/sidequests">sidequests</a></li>
                 </mark>
             </ul>
         </nav>

@@ -7,12 +7,19 @@
 	export let text
 </script>
 <div class="splide-container">
-	<Splide aria-label="My Favorite Images">
-		{#each images as image}
+	<Splide hasTrack={false} options={{type: 'loop'}} aria-label="sidequest photos">
+		<SplideTrack>			
+			{#each images as image}
 			<SplideSlide>
 				<img class="slide" src={`img/sidequests/${image}`} alt="TKTK" />
 			</SplideSlide>
-		{/each}
+			{/each}
+		</SplideTrack>
+		<div class="splide__pagination"/>
+		<div class="splide__arrows">
+			<button class="splide__arrow splide__arrow--prev"><span>&#8592;</span></button>
+			<button class="splide__arrow splide__arrow--next"><span>&#8594;</span></button>
+		</div>
 	</Splide>
 </div>
 <div class="desc">
@@ -37,6 +44,30 @@
 		@media (max-width: 640px) {
 			padding: 0px 10px;
 		}
+	}
+
+	.splide__arrows {
+		position: relative;
+		width: 100%;
+		height: 20px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.splide__arrow {
+		background: none;
+		position: relative;
+		left: 0;
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.splide__pagination {
+		bottom: 1.5em;
+		display: none;
 	}
 	.slide {
 		max-width: 640px;
