@@ -88,7 +88,7 @@
 	.sidequest-hed {
 		font-family: var(--font-primary);
 		color: var(--text-color-primary);
-		margin: 10px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
 		letter-spacing: 0.25px;
 		font-size: 1.25em;
 		/* line-height: 1.25em; */
