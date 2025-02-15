@@ -28,6 +28,8 @@
 
     let innerWidth;
     let innerHeight;
+
+	
 </script>
 
 <svelte:window bind:innerWidth bind:innerHeight />
@@ -60,7 +62,7 @@
 <slot></slot>
 
 <footer>
-	<span><a href="mailto:hello@janieckchen.com">hello@janicekchen.com</a><br /></span>
+	<span><a href="mailto:hello@janicekchen.com">hello@janicekchen.com</a><br /></span>
 	<!-- <span>Built with SvelteKit, Janice Kai Chen 2025</span> -->
 </footer>
 

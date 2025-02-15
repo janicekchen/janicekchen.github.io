@@ -32,7 +32,7 @@
 		<mark>{subhed}</mark>
 	</h4>
 	<p class="sidequest-desc">
-		{text}
+		{@html text}
 	</p>
 </div>
 
@@ -138,4 +138,6 @@
 			padding: 0px 10px;
 		}
 	}
+
+
 </style>

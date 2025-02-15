@@ -5,7 +5,7 @@
 	export let url;
 </script>
 
-<a href={url}>
+<a href={url} target="_blank">
 	<div class="card-container">
 		<div class="thumbnail">
 			<h3><mark>{hed}</mark></h3>
