@@ -30,7 +30,7 @@
 		<Card
 			hed={'Exit polls from the 2024 presidential election'}
 			date="Nov. 2024"
-			url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
+			url="https://wapo.st/3BPgyXl"
 			--imgUrl={`url(/img/work/exit-polls.jpg)`}
 		/>
 		<Card
