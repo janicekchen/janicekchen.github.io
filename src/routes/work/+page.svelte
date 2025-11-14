@@ -10,6 +10,8 @@
 //     });
 //   }
 
+console.log(cards[0][0].hed)
+
 </script>
 <svelte:head>
     <title>janice kai chen | work</title> 
