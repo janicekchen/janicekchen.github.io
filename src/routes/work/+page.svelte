@@ -10,7 +10,7 @@
 //     });
 //   }
 
-console.log(cards[0][0].hed)
+console.log(cards)
 
 </script>
 <svelte:head>

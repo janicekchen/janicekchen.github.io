@@ -1,6 +1,42 @@
 [
   {
     "order": 1,
+    "hed": "ICE documents plan to double immigration detention space this year",
+    "thumbnail": "ice",
+    "link": "https://wapo.st/3LChcw1",
+    "date": "Aug. 2025",
+    "skills": "data analysis, data visualization",
+    "tech": "Adobe Illustrator, D3, R"
+  },
+  {
+    "order": 2,
+    "hed": "What trees are most common in your city? And are they at risk?",
+    "thumbnail": "trees",
+    "link": "https://wapo.st/4oGsBtr",
+    "date": "Aug. 2025",
+    "skills": "dev, reporting, data visualization",
+    "tech": "three.js, Adobe Illustrator, QGIS"
+  },
+  {
+    "order": 3,
+    "hed": "A trade war could hit these communities hardest",
+    "thumbnail": "tradewar",
+    "link": "https://wapo.st/3JWivoZ",
+    "date": "Mar. 2025",
+    "skills": "dev, data visualization",
+    "tech": "Adobe Illustrator,D3"
+  },
+  {
+    "order": 4,
+    "hed": "Here’s how Africa wants to redraw the world map",
+    "thumbnail": "africa",
+    "link": "https://wapo.st/4oEwHlH",
+    "date": "Aug. 2025",
+    "skills": "dev",
+    "tech": "D3"
+  },
+  {
+    "order": 5,
     "hed": "Palisades, Eaton fires expected to be most destructive in L.A. history",
     "thumbnail": "palisades",
     "link": "https://wapo.st/3Wsa3B7",
@@ -9,7 +45,7 @@
     "tech": "Adobe Illustrator, D3"
   },
   {
-    "order": 2,
+    "order": 6,
     "hed": "Israel has bombed much of Gaza to rubble. What would it take to rebuild?",
     "thumbnail": "gaza-reconstruction",
     "link": "https://wapo.st/3ZMzP3U",
@@ -18,7 +54,7 @@
     "tech": "React"
   },
   {
-    "order": 3,
+    "order": 7,
     "hed": "State affirmative action bans helped White, Asian students, hurt others",
     "thumbnail": "affirmative-action",
     "link": "https://wapo.st/405qmpA",
@@ -27,7 +63,7 @@
     "tech": "Adobe Illustrator, R"
   },
   {
-    "order": 4,
+    "order": 8,
     "hed": "Pigeons are still (sometimes) faster than your internet",
     "thumbnail": "pigeons",
     "link": "https://wapo.st/41NfvSE",
@@ -36,7 +72,7 @@
     "tech": "QGIS, R, Procreate"
   },
   {
-    "order": 5,
+    "order": 9,
     "hed": "Exit polls from the 2024 presidential election",
     "thumbnail": "exit-polls",
     "link": "https://wapo.st/3BPgyXl",
@@ -45,7 +81,7 @@
     "tech": "Datawrapper, R, React"
   },
   {
-    "order": 6,
+    "order": 10,
     "hed": "How Florida’s abortion law is affecting East Coast abortion clinics",
     "thumbnail": "florida-abortion",
     "link": "https://wapo.st/4gOKrpU",
@@ -54,7 +90,7 @@
     "tech": "Adobe Illustrator"
   },
   {
-    "order": 7,
+    "order": 11,
     "hed": "How much are rents going up? See how prices have changed in your area.",
     "thumbnail": "rent-prices",
     "link": "https://wapo.st/3VUcOe3",
@@ -63,7 +99,7 @@
     "tech": "MapLibre, React, R"
   },
   {
-    "order": 8,
+    "order": 12,
     "hed": "No daylight saving time? See how early or late you would be in the dark.",
     "thumbnail": "dstmaps",
     "link": "https://wapo.st/41H6VEH",
@@ -72,7 +108,7 @@
     "tech": "D3, React, R"
   },
   {
-    "order": 9,
+    "order": 13,
     "hed": "When Ukraine goes dark",
     "thumbnail": "ukraine-dark",
     "link": "https://www.washingtonpost.com/world/interactive/2023/ukriane-war-power-outages-kyiv-blackouts/",
@@ -81,7 +117,7 @@
     "tech": "Adobe Illustrator, GDAL"
   },
   {
-    "order": 10,
+    "order": 14,
     "hed": "‘In the name of God’",
     "thumbnail": "priests",
     "link": "https://www.washingtonpost.com/investigations/interactive/2024/sexual-abuse-native-american-boarding-schools/",
@@ -90,7 +126,7 @@
     "tech": "D3, Adobe Illustrator, QGIS"
   },
   {
-    "order": 11,
+    "order": 15,
     "hed": "As Europe’s heat wave melts roads, Tour de France races into an uncertain future",
     "thumbnail": "tour-de-france",
     "link": "https://www.washingtonpost.com/world/2022/07/23/tour-de-france-heat-wave-climate-change/",
@@ -99,7 +135,7 @@
     "tech": "Adobe Illustrator, QGIS"
   },
   {
-    "order": 12,
+    "order": 16,
     "hed": "Where women made history on Election Day",
     "thumbnail": "women-politics",
     "link": "https://www.washingtonpost.com/politics/interactive/2024/women-in-congress-firsts/",
@@ -108,7 +144,7 @@
     "tech": "D3, React"
   },
   {
-    "order": 13,
+    "order": 17,
     "hed": "Paris Olympics medal count: Tracking medals by country in 2024",
     "thumbnail": "paris-olympics",
     "link": "https://www.washingtonpost.com/sports/olympics/interactive/2024/paris-olympics-medal-count-tracker/?itid=ap_chrisalcantara",
@@ -117,7 +153,7 @@
     "tech": "R, React, Adobe Illustrator"
   },
   {
-    "order": 14,
+    "order": 18,
     "hed": "Drone strikes, sabotage, shelling: Russia’s war on Ukraine comes to Russia",
     "thumbnail": "russia-strikes",
     "link": "https://www.washingtonpost.com/world/2023/03/21/ukraine-war-russian-soil/",
@@ -126,7 +162,7 @@
     "tech": "R, QGIS, Adobe Illustrator"
   },
   {
-    "order": 15,
+    "order": 19,
     "hed": "Half of Black D.C. residents lack easy access to health care, analysis shows",
     "thumbnail": "dc-health-outcomes",
     "link": "https://www.washingtonpost.com/dc-md-va/2024/01/03/dc-black-health-care-outcomes/",
@@ -135,7 +171,7 @@
     "tech": "QGIS, R, Adobe Illustrator"
   },
   {
-    "order": 16,
+    "order": 20,
     "hed": "Tracking damage within the Gaza Strip through maps",
     "thumbnail": "gaza-maps",
     "link": "https://www.washingtonpost.com/world/2023/gaza-strip-map-attacks-damage/",
@@ -144,7 +180,7 @@
     "tech": "QGIS, Adobe Illustrator"
   },
   {
-    "order": 17,
+    "order": 21,
     "hed": "As Arctic air blasts U.S., see where temperatures will fall fastest and farthest",
     "thumbnail": "arctic-air",
     "link": "https://www.washingtonpost.com/weather/2022/12/21/arctic-air-temperatures-drop/",
@@ -153,7 +189,7 @@
     "tech": "Google Earth Engine"
   },
   {
-    "order": 18,
+    "order": 22,
     "hed": "The gold-mining city that is destroying a sacred Venezuelan mountain",
     "thumbnail": "yapacana",
     "link": "https://wapo.st/3BDyBjm",
@@ -162,7 +198,7 @@
     "tech": "Blender, Google Earth Engine, GDAL, Adobe Photoshop"
   },
   {
-    "order": 19,
+    "order": 23,
     "hed": "100-degree days for weeks? See where streaks have broken records.",
     "thumbnail": "hundred-degrees",
     "link": "https://wapo.st/3VQJzZv",
@@ -171,7 +207,7 @@
     "tech": "R, Datawrapper"
   },
   {
-    "order": 20,
+    "order": 24,
     "hed": "The ancient Turkish city that ceased to exist after the earthquakes",
     "thumbnail": "antakya",
     "link": "https://www.washingtonpost.com/world/2023/02/23/earthquake-antakya-abandoned-photos/",
