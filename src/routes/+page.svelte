@@ -28,6 +28,12 @@
 	<h2>A few projects...</h2>
 	<div class="selected-works">
 		<Card
+		hed={'ICE documents plan to double immigration detention space this year'}
+			date="Aug. 2025"
+			url="https://wapo.st/3LChcw1"
+			--imgUrl={`url(/img/work/ice.jpg)`}
+		/>
+		<Card
 			hed={'Exit polls from the 2024 presidential election'}
 			date="Nov. 2024"
 			url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
@@ -44,12 +50,6 @@
 			date="Nov. 2023"
 			url="https://www.washingtonpost.com/technology/2023/11/10/pigeons-are-faster-than-your-internet/?itid=ap_janicekaichen"
 			--imgUrl={`url(/img/work/pigeons.jpg)`}
-		/>
-		<Card
-			hed={'Milk Country'}
-			date={'Dec. 2020'}
-			url={'https://vermont.vercel.app'}
-			--imgUrl={`url(/img/selected_3.png)`}
 		/>
 	</div>
 </div>
