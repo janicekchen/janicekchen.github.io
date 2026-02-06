@@ -14,7 +14,7 @@
 <div class="container">
 	<p class="bio">
 		<mark>
-			I'm a journalist, data visualization designer, and cartographer based in Seattle. Full time at
+			I'm a journalist, developer, and data visualization designer based in Seattle. Full time at
 			the Washington Post; part time on <a href="{base}/sidequests">sidequests</a>.
 		</mark>
 	</p>
