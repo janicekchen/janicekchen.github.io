@@ -28,6 +28,12 @@
 	<h2>A few projects...</h2>
 	<div class="selected-works">
 		<Card
+		hed={'Climate change is making the Winter Olympics harder to host'}
+			date="Feb. 2026"
+			url="https://wapo.st/3Zna1vh"
+			--imgUrl={`url(/img/work/olympics-climate.jpg)`}
+		/>
+		<Card
 		hed={'ICE documents plan to double immigration detention space this year'}
 			date="Aug. 2025"
 			url="https://wapo.st/3LChcw1"
@@ -38,12 +44,6 @@
 			date="Nov. 2024"
 			url="https://wapo.st/3BPgyXl"
 			--imgUrl={`url(/img/work/exit-polls.jpg)`}
-		/>
-		<Card
-			hed={'State affirmative action bans helped White, Asian students, hurt others'}
-			date="June 2023"
-			url="https://www.washingtonpost.com/education/2023/06/29/affirmative-action-banned-what-happens/?itid=ap_janicekaichen"
-			--imgUrl={`url(/img/work/affirmative-action.jpg)`}
 		/>
 		<Card
 			hed={'Pigeons are still (sometimes) faster than your internet'}
